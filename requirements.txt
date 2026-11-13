@@ -10,3 +10,4 @@ Pillow
 tqdm
 onnx
 onnxruntime
+scikit-image
