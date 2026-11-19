@@ -19,6 +19,10 @@ def set_seed(seed=42):
 
 def prepare_data(categories=CATEGORIES):
     """Extrait les archives depuis Drive vers le disque local (ignore ce qui existe déjà)."""
+    if not os.path.isdir(ARCHIVES_DIR):
+        raise FileNotFoundError(
+            f"Dossier introuvable : {ARCHIVES_DIR}. Drive est-il monté, "
+            "et le dossier partagé ajouté à 'Mon Drive' (raccourci) ?")
     os.makedirs(DATA_ROOT, exist_ok=True)
     os.makedirs(CKPT_DIR, exist_ok=True)
     for cat in categories:
