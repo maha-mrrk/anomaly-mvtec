@@ -1,0 +1,4 @@
+model,category,img_auc_mapmax,pix_auc
+ResNet18-ImageNet-frozen,carpet,0.920,0.983
+ResNet18-ImageNet-frozen,screw,0.898,0.982
+ResNet18-ImageNet-frozen,cable,0.930,0.967
