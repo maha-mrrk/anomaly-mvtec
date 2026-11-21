@@ -1,0 +1,6 @@
+,AUROC image,AUROC image,AUROC image,AUROC pixel,AUROC pixel,AUROC pixel
+category,carpet,screw,cable,carpet,screw,cable
+model,,,,,,
+DINO-ViT-S/8_k1,0.997,0.943,0.983,0.995,0.992,0.982
+DINO-ViT-S/8_k3,0.998,0.936,0.98,0.995,0.991,0.981
+DINO-ViT-S/8_k5,0.998,0.931,0.978,0.995,0.99,0.981

@@ -1,0 +1,9 @@
+,AUROC image,AUROC image,AUROC image,AUROC image,AUROC pixel,AUROC pixel,AUROC pixel,AUROC pixel,AUPRO,AUPRO,AUPRO,AUPRO
+category,carpet,screw,cable,moyenne,carpet,screw,cable,moyenne,carpet,screw,cable,moyenne
+model,,,,,,,,,,,,
+Baseline (image moyenne),0.395,0.23,0.635,0.42,0.715,0.878,0.901,0.831,0.46,0.628,0.532,0.54
+VAE (β=0.01),0.547,0.631,0.699,0.626,0.853,0.975,0.914,0.914,0.511,0.891,0.615,0.672
+SimSiam (scratch),0.872,0.564,0.847,0.761,0.877,0.94,0.945,0.921,,,,
+SimSiam (ImageNet),0.511,0.81,0.909,0.743,0.895,0.981,0.97,0.949,,,,
+ResNet-18 ImageNet (gelé),0.92,0.898,0.93,0.916,0.983,0.982,0.967,0.977,,,,
+DINO ViT-S/8 (k=1),0.997,0.943,0.983,0.974,0.995,0.992,0.982,0.99,0.981,0.964,0.942,0.962

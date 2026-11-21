@@ -1,0 +1,6 @@
+,AUROC image,AUROC image,AUROC image,AUROC pixel,AUROC pixel,AUROC pixel
+category,carpet,screw,cable,carpet,screw,cable
+model,,,,,,
+VAE_beta0.001,0.603,0.579,0.706,0.848,0.975,0.911
+VAE_beta0.01,0.547,0.631,0.699,0.853,0.975,0.914
+VAE_beta0.1,0.584,0.609,0.701,0.858,0.972,0.922

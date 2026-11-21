@@ -1,0 +1,5 @@
+,img_auc_knn1,img_auc_knn1,img_auc_knn1,img_auc_knn3,img_auc_knn3,img_auc_knn3,img_auc_knn5,img_auc_knn5,img_auc_knn5,img_auc_mapmax,img_auc_mapmax,img_auc_mapmax,pix_auc,pix_auc,pix_auc
+category,cable,carpet,screw,cable,carpet,screw,cable,carpet,screw,cable,carpet,screw,cable,carpet,screw
+model,,,,,,,,,,,,,,,
+SimSiam-ImageNet,0.906,0.293,0.598,0.894,0.291,0.541,0.888,0.287,0.519,0.909,0.511,0.81,0.97,0.895,0.981
+SimSiam-scratch,0.772,0.487,0.468,0.767,0.461,0.514,0.759,0.427,0.512,0.847,0.872,0.564,0.945,0.877,0.94
