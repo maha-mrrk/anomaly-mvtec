@@ -1,0 +1,7 @@
+model,category,ECE_brut,ECE_Platt,Brier_brut,Brier_Platt
+DINO,cable,0.192,0.044,0.125,0.059
+DINO,carpet,0.18,0.037,0.066,0.018
+DINO,screw,0.38,0.045,0.272,0.087
+VAE,cable,0.292,0.055,0.295,0.215
+VAE,carpet,0.531,0.03,0.482,0.181
+VAE,screw,0.375,0.041,0.333,0.184
